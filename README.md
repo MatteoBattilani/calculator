@@ -10,7 +10,7 @@
 -JS
 
 
-𝐋𝐈𝐕𝐄 𝐃𝐄𝐌𝐎 --> [Calculator](https://matteobattilani.github.io/calculator/){:target="_blank"} 
+𝐋𝐈𝐕𝐄 𝐃𝐄𝐌𝐎 --> 
 <a href="[Calculator](https://matteobattilani.github.io/calculator/)" target="_blank">Calculator!</a>
 
 
