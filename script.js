@@ -2,6 +2,7 @@ class Calculator{
   constructor(previousOperandTextElement, currentOperandTextElement){
     this.previousOperandTextElement = previousOperandTextElement
     this.currentOperandTextElement = currentOperandTextElement
+    this.clear()
   }
 
   clear(){
@@ -14,12 +15,15 @@ class Calculator{
 
   }
 
-  appendNumber(number){
-    this.currentOperand = number
+  appendNumber(number) {
+    if (number === "." && this.currentOperand.includes('.')) return // Se c'è già un punto nel currentOperand, non se ne possono aggiungere altri
+    this.currentOperand = this.currentOperand.toString() + number.toString() // La variabile currentOperand, creata qui è = a se stessa più il nuovo numero aggiunto, accodato come stringa
   }
 
   chooseOperation(operation){
-
+    this.operation = operation
+    this.previousOperand = this.currentOperand
+    this.currentOperand = ''
   }
 
   compute(){
@@ -27,7 +31,8 @@ class Calculator{
   }
 
   updateDisplay(){
-    this.currentOperandTextElement.innerHTML = this.currentOperand
+    this.currentOperandTextElement.innerHTML = this.currentOperand // Il valore HTML dentro a [data-current-operand], rendilo = alla variabile currentOperand
+    this.previousOperandTextElement.innerHTML = this.previousOperand
   }
 }
 
@@ -44,6 +49,13 @@ const calculator = new Calculator(previousOperandTextElement, currentOperandText
 numberButtons.forEach(button => {
   button.addEventListener('click', () =>{
     calculator.appendNumber(button.innerText)
+    calculator.updateDisplay()
+  })
+})
+
+operationButtons.forEach(button => {
+  button.addEventListener('click', () =>{
+    calculator.chooseOperation(button.innerText)
     calculator.updateDisplay()
   })
 })
