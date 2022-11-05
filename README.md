@@ -11,7 +11,7 @@
 
 
 𝐋𝐈𝐕𝐄 𝐃𝐄𝐌𝐎 --> 
-<a href="[Calculator](https://matteobattilani.github.io/calculator/)" target="_blank">Calculator!</a>
+<a href="[Calculator](https://matteobattilani.github.io/calculator/)" target="_blank">[Calculator]</a>
 
 
 𝐃𝐢𝐬𝐜𝐥𝐚𝐢𝐦𝐞𝐫
