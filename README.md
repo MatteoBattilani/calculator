@@ -3,13 +3,15 @@
 
 𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐢𝐞𝐬
 
-**HTML**
+-HTML
 
-**CSS**
+-CSS
 
-**JS**
+-JS
+
 
 𝐋𝐈𝐕𝐄 𝐃𝐄𝐌𝐎 --> [SocialDex](http://matteo1612.pythonanywhere.com/)
+
 
 𝐃𝐢𝐬𝐜𝐥𝐚𝐢𝐦𝐞𝐫
 
