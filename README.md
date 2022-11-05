@@ -12,6 +12,7 @@
 
 𝐋𝐈𝐕𝐄 𝐃𝐄𝐌𝐎 --> 
 <a href="[Calculator](https://matteobattilani.github.io/calculator/)" target="_blank">[Calculator]</a>
+<a href="[test.html](https://matteobattilani.github.io/calculator/)" onclick="return ! window.open(this.href);">Open in a new window</a>
 
 
 𝐃𝐢𝐬𝐜𝐥𝐚𝐢𝐦𝐞𝐫
