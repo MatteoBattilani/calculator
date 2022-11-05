@@ -10,7 +10,7 @@
 -JS
 
 
-𝐋𝐈𝐕𝐄 𝐃𝐄𝐌𝐎 --> [SocialDex](http://matteo1612.pythonanywhere.com/)
+𝐋𝐈𝐕𝐄 𝐃𝐄𝐌𝐎 --> [Calculator](https://matteobattilani.github.io/calculator/)
 
 
 𝐃𝐢𝐬𝐜𝐥𝐚𝐢𝐦𝐞𝐫
